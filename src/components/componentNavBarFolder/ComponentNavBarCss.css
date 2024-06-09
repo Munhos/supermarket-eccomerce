@@ -1,0 +1,44 @@
+#CNavBar-MainContainer{
+  min-height: 60px;
+  background-color: #003D57;
+}
+
+#CNavBar-SearchBar{
+  max-width: 500px;
+  width: 30vw;
+  border-radius: 50px 0 0 50px;
+  text-indent: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn-outline-light:hover .bi {
+  color: black;
+}
+
+.nav-item a {
+  position: relative;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  display: block;
+  margin-top: 2px;
+  left: 0;
+  background: white;
+  transition: width 0.4s ease;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
+  left: 0;
+}
+

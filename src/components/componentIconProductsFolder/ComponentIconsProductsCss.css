@@ -1,0 +1,36 @@
+#CInconProducts-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 280px;
+    position: relative;
+}
+
+#CInconProducts-containerImg {
+    width: 50%;
+    position: relative;
+}
+
+#CInconProducts-containerText {
+    width: 50%;
+}
+
+.CInconProducts-img {
+    height: 280px;
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.CInconProducts-imgHovered {
+    position: absolute;
+    left: 50%;
+    transform: scaleX(2);
+    transition: 0.5s;
+    cursor: pointer;
+    width: 100%;
+    height: 280px;
+}

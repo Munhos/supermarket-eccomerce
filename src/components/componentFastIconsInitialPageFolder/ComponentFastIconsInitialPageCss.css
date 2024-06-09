@@ -1,0 +1,14 @@
+#CFastIconsInitialPage-mainContainer{
+  width: 20%;
+  height: 400px;
+
+  transform: scale(80%);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#CFastIconsInitialPage-imgPrincipal{
+  width: 300px;
+}
