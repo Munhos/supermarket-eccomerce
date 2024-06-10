@@ -1,6 +1,7 @@
 #CNavBar-MainContainer{
   min-height: 60px;
   background-color: #003D57;
+  position: relative;
 }
 
 #CNavBar-SearchBar{
@@ -40,5 +41,12 @@ ul{
 .nav-item a:hover::after {
   width: 100%;
   left: 0;
+}
+
+#CNavBar-containerDisplayCart{
+  position: absolute;
+  z-index: 3;
+  overflow: hidden;
+  transition: 0.5s;
 }
 

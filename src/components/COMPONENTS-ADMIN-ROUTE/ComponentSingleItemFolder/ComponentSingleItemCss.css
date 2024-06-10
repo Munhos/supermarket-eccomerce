@@ -1,0 +1,26 @@
+#CItemDisplay-mainContainer{
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+#CItemDisplay-mainContainer > div {
+    height: 100%;
+}
+
+#CItemDisplay-mainContainer > div > img {
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#CItemDisplay-containerButonsBuy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CItemDisplay-containerButonsBuy > h5 {
+    margin-left: 20px;
+}

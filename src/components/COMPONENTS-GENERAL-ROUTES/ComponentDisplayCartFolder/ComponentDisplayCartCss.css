@@ -1,0 +1,33 @@
+#CDisplayCartMainContainer{
+    max-width: 500px;
+    border: 1px solid black;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#CDisplayCartMainContainer > hr {
+    width: 90%;
+
+}
+
+#CDisplayCartItensContainer{
+    width: 90%;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#CDisplayCart-containerTitle{
+    display: flex;
+    align-items: center;
+}
+
+#CDisplayCart-containerTitle > button {
+    margin-left: 10px;
+}

@@ -1,0 +1,30 @@
+#CCartproductIcon-mainContainer{
+    width: 80%;
+    height: 200px;
+    border:1px solid black;
+    margin-top: 10px;
+}
+
+#CCartproductIcon-mainContainer > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#CCartproductIcon-mainContainer > div > h3 {
+    margin-left: 10px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+#CCartproductIcon-mainContainer > div > h2{
+    margin-right: 10px;
+}
+
+#CCartproductIcon-mainContainer > div > img{
+    margin-left: 10px;
+}
+
+#CCartproductIcon-mainContainer > div > button{
+    margin-left: 10px;
+}

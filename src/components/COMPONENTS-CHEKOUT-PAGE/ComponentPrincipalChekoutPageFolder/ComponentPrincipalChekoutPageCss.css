@@ -1,0 +1,23 @@
+#CPrincipalChekoutPage-mainContainer{
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#CPrincipalChekoutPage-containerForms{
+    width: 500px;
+    min-height: 500px;
+    border: 1px solid black;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+#CPrincipalChekoutPage-ContainerComponentDisplayCart{
+    display: flex;
+}
+
+#CPrincipalChekoutPage-ContainerComponentDisplayCart > div{
+    margin: 30px;
+}
